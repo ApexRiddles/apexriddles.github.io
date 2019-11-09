@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Level 5</title>
+<link rel="icon" href="image/design.ico">
+</head>
+<body style="background-color: #ffb3ff;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+body, html{
+	height: 88.5%;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 500px;
+  color: black;
+  text-align: center;
+
+}
+</style>
+<h1>Level 5</h1>
+
+<br>
+  <p><font color="black">
+
+	<center>Aren't you on a roll? In order to complete this riddle, you should inspect the following riddle and try to find the answer. <br><br>Don't give up! You still have a number of lifelines. Write your answer below.</center><br>
+
+		<!-- these first few levels seem easy, huh? Password: welldone -->
+	<center><input id="text_a" type="text" />
+<p id="answer"></p>
+<button onclick="myFunction()">Submit</button></center>
+
+<script>
+function myFunction()
+{
+var a=document.getElementById("text_a").value;
+
+if (a=="welldone")
+  {
+document.getElementById("answer").innerHTML="Correct! Proceed to <b>/genius.html</b>";
+  }
+else
+  {
+document.getElementById("answer").innerHTML="Try again!";
+  }
+}
+</script>
+    </body>
+</html>
