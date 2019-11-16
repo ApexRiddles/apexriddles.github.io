@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>CONTACT US</title>
-<link rel="icon" href="image/contacticon.png">
+<link rel="icon" href="image/contact.png">
 <style>
 body {
 	background-image: url("image/contactsbg.jpg");
@@ -10,17 +10,26 @@ body {
 } 
 
 </style>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <font color="black">
 <style>
+hr { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 5px solid;
+} 
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 #mySidenav a {
-   position: absolute;
+  position: absolute;
   left: -72px;
   transition: 0.3s;
   padding: 15px;
@@ -30,9 +39,11 @@ body {font-family: "Lato", sans-serif}
   color: white;
   border-radius: 0 10px 10px 0;
 }
+
 #mySidenav a:hover {
   left: 0;
 }
+
 #home {
   top: 440px;
   background-color: #2196F3;
@@ -42,21 +53,18 @@ body {font-family: "Lato", sans-serif}
   top: 494px;
   background-color: #4CAF50;
 }
+
 #levels {
   top: 544px;
   background-color: #f44336;
 }
+
 .moveimage1
 {
     position: relative;
     top: -4px;
 }
 .moveimage2
-{
-    position: relative;
-    top: -2px;
-}
-.moveimage3
 {
     position: relative;
     top: -2px;
@@ -69,21 +77,9 @@ body {font-family: "Lato", sans-serif}
   <a href="contact.html" id="about">About&ensp;&nbsp;<img class="moveimage2" img src="image/about.png" style="width:24%"></a>
   <a href="levels.html" id="levels">Levels&ensp;&nbsp;<img class="moveimage3" img src="image/challenge.png" style="width:24%"></a>
 </div>
+    
+<h2 class="w3-wide w3-center">CONTACT US</h2>
 
-  <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="image/banner1.jpg" style="width:100%"> 
-
-    </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="image/banner2.jpg" style="width:100%">  
-    </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="image/banner3.jpg" style="width:100%">
-  </div>
-  <!-- The information -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-	  
     <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
             <hr>
     <div class="w3-row w3-padding-32">
@@ -113,21 +109,5 @@ body {font-family: "Lato", sans-serif}
 <p><font face="Lucida Calligraphy">Garry Chahal, Jessy Chahal, and Aaditya Sharma</font></p>
 </marquee>
 </center>
-	<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-</script>
 </body>
 </html>
